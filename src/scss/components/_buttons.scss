@@ -14,24 +14,15 @@
   border: $button-border;
   border-radius: $button-border-radius;
   transition: 275ms ease;
+  letter-spacing: $button-letter-spacing;
 
-  &[data-type="accent"] {
-    background-color: $button-accent-background;
-    color: $button-accent-color;
-
-    &:is(:hover, :focus) {
-      background-color: $button-accent-background-hover;
-      color: $button-accent-color-hover;
-    }
-  }
-
-  &[data-type="primary"] {
-    background-color: $button-primary-background;
-    color: $button-primary-color;
+  &[data-type="outline"] {
+    background-color: $button-outline-background;
+    color: $button-outline-color;
 
     &:is(:hover, :focus) {
-      background-color: $button-primary-background-hover;
-      color: $button-primary-color-hover;
+      background-color: $button-outline-background-hover;
+      color: $button-outline-color-hover;
     }
   }
 }
