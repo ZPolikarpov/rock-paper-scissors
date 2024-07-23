@@ -4,6 +4,8 @@
   color: $site-header-color;
   background-color: $site-header-background-color;
   padding: $site-header-padding;
+  border: 1px solid $color-neutral-400;
+  border-radius: $border-radius-2;
 
   &__inner {
     display: flex;
@@ -13,6 +15,21 @@
 
     @include mq(medium) {
       justify-content: $site-header-jusitifcation-large-screens;
+    }
+
+    
+    .logo {
+      max-height: $size-10;
+    }
+
+    .scoreboard {
+      border-radius: 0.25rem;
+      background: linear-gradient(#f3f3f3, #ffffff);
+      padding: 10px 22px;
+
+      @include mq(medium) {
+        border-radius: $border-radius-1;
+      }
     }
   }
 }
