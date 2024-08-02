@@ -1,4 +1,5 @@
 import icon_logo from "./assets/images/logo.svg"
+import PlayChip from "./components/PlayChip"
 
 function App() {
 	return (
@@ -13,6 +14,12 @@ function App() {
               </div>
             </div>
         </header>
+				
+				<main className="main-content">
+					<PlayChip type="rock" isSelected={false} onSelect={() => {}} />
+					<PlayChip type="paper" isSelected={false} onSelect={() => {}} />
+					<PlayChip type="scissors" isSelected={false} onSelect={() => {}} />
+				</main>
       </div>
 		</>
   )

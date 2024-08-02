@@ -17,6 +17,8 @@ $letter-spacing-loose: 0;
 $border-radius-1: $size-2;
 $border-radius-2: clamp(0.3125rem, 0.076rem + 1.0091vw, 0.9375rem);
 
+$box-shadow-1: inset 0px 6px 0 hsl(230, 23%, 78%);
+
 // body
 $body-font-family: $font-family-base;
 $body-font-size: $font-size-600;
@@ -77,3 +79,19 @@ $button-outline-color: $color-neutral-000;
 $button-outline-background: transparent;
 $button-outline-color-hover: $color-neutral-700;
 $button-outline-background-hover: $color-neutral-000;
+
+// play-chip
+$chip-box-shadow-inner: $box-shadow-1;
+$chip-border: 15px solid;
+
+// play-chip-rock
+$chip-box-shadow-rock: $chip-box-shadow-inner, 0 6px 0 hsl(347, 75%, 35%);
+$chip-border-color-rock: $color-primary-300;
+
+// play-chip-paper
+$chip-box-shadow-paper: $chip-box-shadow-inner, 0 6px 0 hsl(230, 64%, 46%);
+$chip-border-color-paper: $color-primary-200;
+
+// play-chip-scissors
+$chip-box-shadow-scissors: $chip-box-shadow-inner, 0 6px 0 hsl(28, 77%, 44%);
+$chip-border-color-scissors: $color-primary-100;
