@@ -49,7 +49,7 @@ function getIconAlt(type) {
     case 'rock':
       return 'Rock';
     case 'paper':
-      return 'paper'
+      return 'Paper'
 		case 'scissors':
 			return 'Scissors';
 		default:

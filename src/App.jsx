@@ -1,5 +1,5 @@
 import icon_logo from "./assets/images/logo.svg"
-import PlayChip from "./components/PlayChip"
+import GameReady from "./components/layouts/GameReady"
 
 function App() {
 	return (
@@ -16,9 +16,7 @@ function App() {
         </header>
 				
 				<main className="main-content">
-					<PlayChip type="rock" isSelected={false} onSelect={() => {}} />
-					<PlayChip type="paper" isSelected={false} onSelect={() => {}} />
-					<PlayChip type="scissors" isSelected={false} onSelect={() => {}} />
+					<GameReady />
 				</main>
       </div>
 		</>

@@ -10,12 +10,6 @@
   border: $chip-border;
   border-radius: 50%;
   background-color: white;
-  cursor: pointer;
-  // transition: all 0.3s ease;
-
-  // &:hover {
-  //   background-color: #f0f0f0;
-  // }
 
   &[aria-label="rock"] {
     border-color: $chip-border-color-rock;

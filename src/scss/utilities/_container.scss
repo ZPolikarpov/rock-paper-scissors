@@ -3,7 +3,8 @@
 .container {
   --padding: #{$container-min-margin-inline} * 2;
   --max-width: #{$container-max-width};
-
+  min-height: 100vh;
+  display: grid;
   width: min(100% - var(--padding), var(--max-width));
   margin-inline: auto;
 
